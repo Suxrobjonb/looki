@@ -1,0 +1,86 @@
+.footer {
+  padding-top: 80px !important;
+  padding-bottom: 30px !important;
+  background-color: #efefef;
+  z-index: -1;
+}
+
+.about__site {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text__logo {
+  margin-top: 24px;
+  margin-bottom: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #565656;
+  width: 396px;
+}
+
+.list__social-network {
+  display: flex;
+  align-items: center;
+}
+
+.list__social-network-item {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.list__social-network-item:hover {
+  background-color: #0a4297;
+}
+
+.widget__title {
+  padding-bottom: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #222;
+  position: relative;
+}
+
+.widget__title::after {
+  background: #5a5ac9;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 60px;
+  height: 2px;
+  content: "";
+}
+
+.list__social-network-item + .list__social-network-item {
+  margin-left: 10px;
+}
+
+.networks__link {
+  color: #565656;
+}
+
+.widget__title-box {
+    margin-bottom: 25px;
+    margin-left: 25px;    
+}
+
+.footer__widget {
+    display: flex;
+    align-items: center;
+}
+
+.footer__menu-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #565656;
+}
+

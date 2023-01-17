@@ -1,0 +1,83 @@
+.Products__section {
+  padding-top: 50px;
+  z-index: -1;
+}
+
+.products__title {
+  position: relative;
+  margin-bottom: 16px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding: 16px;
+}
+
+.products__title::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  content: "";
+  background: #5a5ac9;
+}
+
+.text__product {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.products__title-box {
+  padding-bottom: 50px;
+}
+
+.list__product {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list__product-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #111;
+  transition: 0.3s;
+}
+
+.list__product-link:hover {
+    color: #5a5ac9;
+    border-bottom: 2px solid #5a5ac9;
+}
+
+.list__product-link-default {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;  
+  color: #5a5ac9;
+  border-bottom: 2px solid #5a5ac9;
+}
+
+.list__product-item + .list__product-item {
+    margin-left: 30px;
+}
+
+.list__product-box {
+    padding-bottom: 70px;
+}
+
+.cards__product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,193 @@
+.header__top {
+  background-color: #111;
+  z-index: -1;
+}
+
+.header__tob-box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left__box-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social__networks {
+  display: flex;
+  align-items: center;
+}
+
+.social__networks-item + .social__networks-item {
+  margin-left: 10px;
+}
+
+.fasebook__icon {
+  fill: #fff;
+  width: 23px;
+  height: 23px;
+  transition: all 0.3s;
+}
+
+.fasebook__icon:hover {
+  fill: #5a5ac9;
+}
+
+.phone__box {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  transition: all 0.3s;
+}
+
+.phone__img:hover,
+.phone__number:hover {
+  fill: #5a5ac9;
+  color: #5a5ac9;
+}
+
+.phone__img {
+  fill: #fff;
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+}
+
+.phone__number {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+.settings__dropdown {
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+}
+
+.option__titles-header {
+  padding: 5px;
+  position: absolute;
+  top: 42px;
+  right: 215px;
+  transition: all .3s;
+  width: 120px;
+  background-color: #fff;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
+  display: block;
+  overflow: hidden;
+  z-index: 99999;
+}
+
+.moneys {
+  padding: 5px;
+  position: absolute;
+  top: 42px;
+  right: 89px;
+  transition: all .3s;
+  width: 120px;
+  background-color: #fff;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
+  display: block;
+  overflow: hidden;
+  z-index: 99999;
+}
+
+.language {
+  padding: 5px;
+  position: absolute;
+  top: 42px;
+  right: -36px;
+  transition: all .3s;
+  width: 120px;
+  background-color: #fff;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
+  display: block;
+  overflow: hidden;
+  z-index: 99999;
+}
+
+.header__droopdown-text {
+  margin-right: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.right {
+  margin-left: 20px;
+}
+
+.header__droopdown-text:hover {
+  color: #5a5ac9;
+}
+
+.options__item {
+  font-size: 13px;
+  font-family: "Poppins";
+  font-style: normal;  
+  color: #565!important;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.drop__down {
+  width: 15px;
+  fill: #fff;
+  height: 9px;
+}
+
+.drop__down:hover {
+  fill: #5a5ac9;
+}
+
+.usa__flag {
+  width: 50px;
+  height: 12px;
+}
+
+@media only screen and (max-width: 635px) {
+  .header__tob-box {
+    display: block;
+  }
+
+  .drop__down {
+    width: 10px;
+  }
+
+  .usa__flag {
+    width: 20px;
+    height: 10px;
+  }
+
+  .header__droopdown-text {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 633px) {
+  .header__top {
+    padding-left: 120px;
+    padding-right: 80px;
+  }
+
+  .drop__down {
+    width: 10px;
+  }
+
+  .phone__number {
+    position: absolute;
+    left: 275px;
+  }
+}
+
+
+

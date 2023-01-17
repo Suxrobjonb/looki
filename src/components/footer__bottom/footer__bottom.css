@@ -1,0 +1,20 @@
+.footer__buttom {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #111 !important;
+  z-index: -1;
+}
+
+.footer__buttom-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__bottom-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}

@@ -1,0 +1,95 @@
+.carusel__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.slick-dots {
+  position: relative;
+  margin-top: -5%;
+}
+.slick-dots > li {
+  width: 14px;
+  height: 14px;
+  background-color: black;
+  border-radius: 100%;
+}
+.slick-dots > li > button::before {
+  display: none;
+}
+.slick-dots > .slick-active {
+  background-color: #5a5ac9;
+}
+
+.text__1-img {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  transition: 1.5s;
+  margin-bottom: 15px;
+}
+
+.button__shop {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: transparent;
+  color: #111;
+  padding: 10px;
+  border: 1px solid #333;
+  margin-top: 50px;
+}
+
+.carusel{
+  width: 100%;
+}
+
+.slick-dots{
+  position: relative;
+  margin-top: -241px;
+}
+
+.slider__box {
+  padding-top: 255px;
+  padding-left: 30px;
+  padding-bottom: 255px;
+  background-image: url(../../assets/img/rasm2.jpg);
+  background-repeat: no-repeat;
+}
+
+.slider__box-one {
+  padding-top: 255px;
+  padding-left: 30px;
+  padding-bottom: 255px;
+  background-image: url(../../assets/img/rasm3.jpg);
+  background-repeat: no-repeat;
+}
+
+.slider__box-two {
+  padding-top: 255px;
+  padding-left: 30px;
+  padding-bottom: 255px;
+  background-image: url(../../assets/img/rasm.jpg);
+  background-repeat: no-repeat;
+}
+
+.big__font {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  width: 434px;
+  display: block;
+}
+
+@media screen and (max-width: 885px) {
+  .slick-dots {
+    margin-top: -10%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .slick-dots {
+    margin-top: -20%;
+  }
+}

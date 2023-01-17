@@ -1,0 +1,27 @@
+.start__overlay {
+  position: fixed;
+  top: 0;
+  left: 70%;
+  width: 30%;
+  height: 100%;
+  transition: 2s;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.left__exit-button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  right: 20px;
+  top: 11px;
+  z-index: -10;
+}
+
+.title__cart {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}

@@ -1,0 +1,15 @@
+.makup {
+  width: 261px;
+  height: 315px;
+  cursor: pointer;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+
+.makup-big {
+  width: 261px;
+  height: 315px;
+  cursor: pointer;
+  transition: all 0.5s;
+}

@@ -1,0 +1,144 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 8px 6px -6px rgb(0 0 0 / 40%);
+    z-index: 9999;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__box {
+  padding: 20px;
+}
+
+.nav__list-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+  transition: all .3s;
+}
+
+.nav__list-link:hover {
+    color: #5a5ac9;
+}
+
+.drop__down-icon {
+    width: 12px;
+    fill: #fff;
+    height: 7px;
+    margin-left: 5px;
+}
+
+.drop__down-icon:hover {
+  fill: #5a5ac9;
+}
+
+.blue {
+    color: #5A5AC9;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list + .nav__list{
+    margin-left: 30px;
+}
+
+.to__purchase {
+    display: flex;
+    align-items: center;
+}
+
+.list__icons-button {
+    padding: 16px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.list__icons {
+    width: 21px;
+    height: 21px;
+}
+
+.big {
+    width: 23px;
+    height: 23px;
+}
+
+.little__rakes {
+    background-color: #5A5AC9;
+    padding: 14 px;
+    padding-left: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 28px;
+    color: #fff;
+}
+
+.hamburger {
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+
+.home__menus {
+    padding: 5px;
+    position: absolute;
+    top: 211px;
+    left: 317px;
+    transform: translateY(-133px);
+    transition:  .3s;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
+    display: block;
+    overflow: hidden;
+    z-index: 99999;
+    
+}
+
+.shop {
+    left: 460px;
+}
+
+.pages {
+    left: 530px;
+}
+
+.blog {
+    left: 650px;
+}
+
+.media__box {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo__box {
+        padding: 15px;
+        transition: all .3s;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar {
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+}

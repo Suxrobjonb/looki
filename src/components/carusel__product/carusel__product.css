@@ -1,0 +1,59 @@
+.slider__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shop {
+  background-color: transparent;
+  border: none;
+  padding: 15px;
+}
+
+.shop__carusel {
+  overflow: hidden;
+  outline: none;
+}
+
+.box__title-card {
+  overflow: hidden;
+}
+
+.shop__button {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.others__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box__title-card {
+  position: relative;
+  padding: 15px;
+}
+
+.card__img-hover {
+  overflow: hidden;
+}
+
+.title__box-card {
+  padding: 15px;
+  box-shadow: 4px -2px 63px -16px #111;
+}
+
+.new__title {
+  padding: 2px;
+  position: absolute;
+  left: auto;
+  bottom: 391px;
+  right: 20px;
+  color: #fff;
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #5a5ac9 !important;
+}

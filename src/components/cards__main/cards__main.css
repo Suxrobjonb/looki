@@ -1,0 +1,32 @@
+.cards__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: -1;
+}
+
+.cards__img-box {
+  overflow: hidden;
+}
+
+.cards__img {
+  width: 261px;
+  height: 315px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.cards__img-big {
+  width: 546px;
+  height: 316px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.cards__img-big:hover {
+    transform: scale(1.1);
+}
+
+.cards__img:hover {
+  transform: scale(1.1);
+}
